@@ -1,7 +1,9 @@
 # IntentBlueprint: A Standard for Defining Project & Component Intent
 
 **Status:** Version 1.0 - Stable Definition
+
 **License:** Proprietary
+
 **Last Updated:** 14-04-2025
 
 ## Overview
