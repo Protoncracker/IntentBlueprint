@@ -1,0 +1,31 @@
+# Project Intent: Simple Backup Script
+
+**Status:** Conception
+
+---
+---
+
+## 1. Core Intent / Purpose
+
+* **The Problem/Opportunity/Need:**
+    * *(For a Project):* Regularly backing up critical local project folders or configuration files to a separate location (e.g., external drive, network share) manually is tedious, prone to human error (forgetting, copying wrong files), and lacks automation.
+* **The Vision/Solution:**
+    * *(For a Project):* To create a straightforward command-line script that automates the copying of specified source directories to a designated backup destination with minimal user intervention required for routine execution.
+
+## 2. Goals / Key Objectives
+
+* Reliably copy the entire contents of one or more defined source directories to a specified destination directory.
+* Allow easy configuration of source and destination paths (e.g., via command-line arguments or a simple configuration file).
+* Provide clear, concise feedback to the user via console output (e.g., indicating start, completion, and any critical errors).
+* Be simple to understand, modify, and execute.
+* Minimize external dependencies for ease of use.
+* Optionally allow timestamping of backups or simple overwriting.
+
+## 3. Scope
+
+* **Core Focus (In Scope):** Define the clear boundaries and responsibilities.
+    * *(Project):* Core functionality is recursive directory copying from specified source(s) to a destination. Input methods include command-line arguments and/or a basic text configuration file. Output is limited to standard console messages. Primarily targets the user's main OS (e.g., Windows) but aims for portability if the scripting language allows (e.g., Python). Does not include complex features like compression, encryption, incremental backups, scheduling (scheduling assumed via OS tools like Task Scheduler/cron), or cloud storage integration.
+
+---
+
+`` Model Authored by: Protoncracker (found on GitHub /Protoncracker/IntentBlueprint) ``

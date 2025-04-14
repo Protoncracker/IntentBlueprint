@@ -1,0 +1,32 @@
+# Project Intent: Thrintur Combat Calculator Component
+
+**Status:** Planning
+
+---
+---
+
+## 1. Core Intent / Purpose
+
+* **The Problem/Opportunity/Need:**
+    * *(For a Component):* Calculating combat outcomes (damage, status effects, misses, critical hits) in the Thrintur[S/W] system involves numerous complex factors (stats, skills, equipment bonuses, Ôtrix spells, resistances, environmental factors). Implementing this logic directly within multiple parts of the game server (e.g., skill execution, NPC AI) would lead to code duplication, inconsistencies, and difficulty in balancing or updating combat rules.
+* **The Vision/Solution:**
+    * *(For a Component):* To create a dedicated, reusable component (library or microservice) that encapsulates all Thrintur combat calculation logic. It will accept standardized inputs representing the participants, actions, and context, and return deterministic, structured results describing the outcome.
+
+## 2. Goals / Key Objectives
+
+* Accurately calculate base physical and magical damage based on core stats and equipment.
+* Incorporate relevant skills, buffs, debuffs, and temporary effects into calculations.
+* Handle various damage types, resistances, vulnerabilities, and immunities specific to Thrintur[W].
+* Calculate chances for critical hits, misses, blocks, parries based on defined rules.
+* Determine application of status effects resulting from attacks or spells.
+* Provide clear, structured output detailing all aspects of the combat resolution (damage dealt per type, status effects applied, hit/miss/crit status).
+* Ensure calculations are deterministic for given inputs.
+
+## 3. Scope
+
+* **Core Focus (In Scope):** Define the clear boundaries and responsibilities.
+    * *(Component):* Inputs include attacker/defender relevant stats (strength, agility, Ôtrix power, resistances, etc.), action details (skill/spell used, weapon stats), and relevant context (environmental factors if applicable). Core functionality involves applying Thrintur[W] combat formulas for hit chance, critical chance, damage calculation (factoring in armor/resistance), and status effect application chance/duration. Outputs are structured data detailing the results (e.g., damage numbers by type, status effects applied, hit/miss/crit result). The component itself does *not* manage character state, trigger animations, or handle turn order/initiative.
+
+---
+
+`` Model Authored by: Protoncracker (found on GitHub /Protoncracker/IntentBlueprint) ``
