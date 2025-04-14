@@ -1,0 +1,53 @@
+# § Project Intent: [Project Name / Component Name]
+
+**Status:** [e.g., Conception, Planning, Module Definition, Active Development, Finished]
+
+**§ Author(s)/Initiator(s):** [e.g., Protoncracker, System Design Team]
+
+**§ Version/Date:** [e.g., 1.0-Concept / 2025-04-14]
+
+---
+
+## 1. Core Intent / Purpose
+
+* **The Problem/Opportunity/Need:**
+    * *(For a Project):* What broader issue or opportunity motivates this entire project?
+    * *(For a Component):* What specific functional gap or requirement within a larger system does this component address?
+* **The Vision/Solution:**
+    * *(For a Project):* What is the overall goal or the nature of the final product?
+    * *(For a Component):* What is the core function or responsibility of this specific piece of code?
+
+## 2. Goals / Key Objectives
+
+* List the primary, high-level aims. These define "success" for this specific scope (project or component).
+
+## 3. § Success Metrics
+
+* How will the achievement of the Goals/Objectives be measured? List specific, ideally quantifiable, criteria.
+
+## 4. Scope
+
+* **Core Focus (In Scope):** Define the clear boundaries and responsibilities.
+    * *(Project):* What major features/areas are included? Target platforms?
+    * *(Component):* What are the specific inputs, outputs, and functionalities? What dependencies does it *manage* vs. *rely on*?
+* **§ Explicitly Out of Scope (Non-Goals):** What is intentionally excluded to maintain focus? (Crucial for components to define clear interfaces).
+
+## 5. § Dependencies
+
+* What external systems, libraries, APIs, data sources, hardware, teams, or other factors does this project/component rely on?
+
+## 6. § Key Assumptions
+
+* What underlying assumptions (technical, business, user-related) is this plan based on? What must be true for this intent to be valid?
+
+## 7. § Target Audience / Users / Consumers
+
+* Who or what will use/interact with this code?
+
+## 8. § Potential Approach / Technology / Design Notes
+
+* Initial or decided thoughts on architecture, languages, frameworks, algorithms, patterns, or key principles.
+
+---
+
+`` Model Authored by: Protoncracker (found on GitHub /Protoncracker/IntentBlueprint) ``

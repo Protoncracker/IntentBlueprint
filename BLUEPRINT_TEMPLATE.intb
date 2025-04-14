@@ -1,0 +1,27 @@
+# Project Intent: [Project Name / Component Name]
+
+**Status:** [e.g., Conception]
+
+---
+---
+
+## 1. Core Intent / Purpose
+
+* **The Problem/Opportunity/Need:**
+    * *(For a Project):* What broader issue or opportunity motivates this entire project?
+    * *(For a Component):* What specific functional gap or requirement within a larger system does this component address?
+* **The Vision/Solution:**
+    * *(For a Project):* What is the overall goal or the nature of the final product?
+    * *(For a Component):* What is the core function or responsibility of this specific piece of code?
+
+## 2. Goals / Key Objectives
+
+* List the primary, high-level aims. These define "success" for this specific scope (project or component).
+
+## 3. Scope
+
+* **Core Focus (In Scope):** Define the clear boundaries and responsibilities.
+    * *(Project):* What major features/areas are included? Target platforms?
+    * *(Component):* What are the specific inputs, outputs, and functionalities? What dependencies does it *manage* vs. *rely on*?
+
+---
