@@ -1,0 +1,23 @@
+A Note from the Creator: The Story and Philosophy Behind IntentBlueprint
+
+Hello, and thank you for your interest in IntentBlueprint. I wanted to share some background on its origins and the philosophy driving it.
+
+My journey into programming larger-scoped projects began around the age of 13. Almost immediately, I ran into the classic challenge of documentation – undeniably necessary, yet often feeling overwhelming or impractical in its common forms. Within my own projects, despite striving for clean code, I'd find myself losing track of the specific purpose or rationale behind different modules or code sections, especially as complexity grew.
+
+I looked outward, studying documentation practices and clean code principles. However, translating the high-level *intent* – the 'why' behind a piece of code, not just the 'what' it does – often resulted in lengthy in-code comments that cluttered the logic, or documentation systems that felt too detached or verbose for capturing that initial spark. We've all seen codebases where comments are minimal ("// Does X") or where institutional knowledge walks out the door when a developer leaves, leaving others to piece together the original vision. It became clear that even looking at the same code, interpretations of its core purpose and design choices could easily diverge.
+
+Facing these challenges, particularly when juggling multiple modules as a solo developer with limited time, I started experimenting with a simple solution for my own benefit. I created basic text files, initially named "Intenção.txt" (Portuguese for "Intent"), where I would distill the core ideas, goals, and scope for a project or component *before* getting lost in the details, or *after* stepping away and needing to quickly regain context. This practice proved invaluable for maintaining clarity and focus on complex personal projects over many years.
+
+For a long time, I viewed this "Intent" file concept as just a personal productivity hack – perhaps too simple or obvious to be formalized. I kept expecting a similar, widely adopted standard to emerge from the industry, especially given the clear need. Seeing that gap persist, I decided it was time to refine the idea and share it publicly as IntentBlueprint.
+
+My sincere hope is that this straightforward standard can offer others the same benefits it has offered me: a way to anchor development in clarity, facilitate better understanding (for oneself, for teams, potentially even for AI), and bridge the gap left by traditional commenting or heavy documentation systems, especially in the crucial early stages of development or onboarding.
+
+Regarding the project's current status (as of April 2025): The IntentBlueprint standard itself is currently under a proprietary license, and I am not formally accepting contributions at this moment. This is an interim phase while I finalize some related aspects. However, please rest assured – if you're an individual developer using this for personal projects, learning, or inspiration, aggressive legal action over non-commercial use is absolutely not the intent here. The long-term vision is very much for IntentBlueprint to become fully open-source, likely under a permissive or copyleft license such as the GNU GPL, once the time is right.
+
+Thank you again for exploring IntentBlueprint. I invite you to follow my other work on GitHub (/Protoncracker) and my socials, where I pursue projects driven by similar principles.
+
+As a fun aside, when I described this concept to AI models like ChatGPT, their enthusiastic responses ("AMAZING CUTTING-EDGE PROJECT") were amusing and I lol'd, but perhaps underscored the perceived utility of the idea. I'd encourage you to experiment similarly – point an AI to this repository and see what insights it draws!
+
+Hope for more,
+
+Protoncracker.
