@@ -1,5 +1,7 @@
 # IntentBlueprint: A Standard for Defining Project & Component Intent
 
+<img src="IntentBlueprint.png" width="50%" alt="IntentBlueprint Logo">
+
 **Status:** Version 1.0 - Stable Definition
 
 **License:** Proprietary
