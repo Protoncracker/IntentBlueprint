@@ -83,11 +83,14 @@ Reviewing these can provide practical insight into filling out the template for 
 
 *(Refer to [./BLUEPRINT_TEMPLATE.md](./BLUEPRINT_TEMPLATE.md) for full details)*
 
-1.  **Core Intent / Purpose:** The fundamental rationale and envisioned solution.
-2.  **Goals / Key Objectives:** High-level success criteria for the defined scope.
-3.  **Scope:** Defines responsibilities, boundaries, and interfaces (In/Out).
-4.  **§ Target Audience / Users / Consumers:** Identifies who uses or interacts with the code.
-5.  **§ Potential Approach / Technology / Design Notes:** Captures technical direction, architecture, dependencies.
+1.  **Core Intent / Purpose:** The fundamental rationale ("Why") and envisioned solution ("What").
+2.  **Goals / Key Objectives:** High-level success targets for the defined scope.
+3.  **§ Success Metrics:** How achievement of goals will be measured (optional).
+4.  **Scope:** Defines responsibilities, boundaries, and interfaces (In/Out).
+5.  **§ Dependencies:** Lists crucial external reliance points (optional).
+6.  **§ Key Assumptions:** Surfaces underlying beliefs critical to the plan (optional).
+7.  **§ Target Audience / Users / Consumers:** Identifies who interacts with the code (optional).
+8.  **§ Potential Approach / Technology / Design Notes:** Captures technical direction and implementation ideas (optional).
 
 ## Usage
 
