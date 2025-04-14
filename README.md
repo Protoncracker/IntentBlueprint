@@ -117,7 +117,7 @@ Reviewing these can provide practical insight into filling out the template for 
 
 ## Contributing
 
-As this project is currently under a proprietary license, direct contributions are not open at this time. Suggestions or feedback may be considered via communications [ ](Specify preferred feedback channel - e.g., GitHub Issues, if enabled, or contact info later).
+As this project is currently under a proprietary license, direct contributions are not open at this time. Suggestions or feedback may be considered via email communication [tryme.freefall963@passinbox.com](mailto:tryme.freefall963@passinbox.com).
 
 **Author's Note:**
 The [Author's Note](AUTHORS_NOTE.txt) is filled with information about the intent of the IntentBlueprint project itself, and may be able to showcase future updates and utility within the versatily of it. It is a must-read.
