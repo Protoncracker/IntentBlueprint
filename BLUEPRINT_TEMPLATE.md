@@ -1,7 +1,9 @@
 # § Project Intent: [Project Name / Component Name]
 
 **Status:** [e.g., Conception, Planning, Module Definition, Active Development, Finished]
+
 **§ Author(s)/Initiator(s):** [e.g., Protoncracker, System Design Team]
+
 **§ Version/Date:** [e.g., 1.0-Concept / 2025-04-14]
 
 ---
