@@ -1,0 +1,29 @@
+# Project Intent: ExifTool
+
+**Status:** Mature / Actively Maintained
+
+---
+---
+
+## 1. Core Intent / Purpose
+
+* **The Problem/Opportunity/Need:**
+    * *(For a Project):* Reading, writing, and manipulating the diverse and often complex metadata (Exif, IPTC, XMP, MakerNotes, GPS, etc.) embedded within media files (images, video, audio) and documents is challenging due to varying standards, proprietary formats, and inconsistent tool support. A unified, reliable, and comprehensive solution is needed.
+* **The Vision/Solution:**
+    * *(For a Project):* To provide a platform-independent command-line application and Perl library dedicated to accurately reading, writing, and editing meta information across a vast range of file formats. To be the definitive tool for metadata handling.
+
+## 2. Goals / Key Objectives
+
+* Support the widest possible range of metadata types, tags, and file formats.
+* Ensure accurate interpretation and modification of metadata, including complex vendor-specific MakerNotes.
+* Provide powerful, flexible command-line options for extraction, formatting, tag manipulation (copying, setting), conditional processing, and batch operations.
+* Offer a robust, reusable Perl library (Image::ExifTool) for programmatic metadata access.
+* Maintain cross-platform compatibility (Windows, macOS, Linux/Unix).
+* Continuously update support for new camera models, file formats, and evolving metadata standards.
+
+## 3. Scope
+
+* **Core Focus (In Scope):** Define the clear boundaries and responsibilities.
+    * *(Project):* Core functionality includes reading, writing, and editing file metadata (Exif, GPS, IPTC, XMP, JFIF, MakerNotes, GeoTIFF, ICC Profile, Photoshop IRB, FlashPix, AFCP, ID3, and many more). Key features include tag extraction/writing, tag copying, conditional operations, batch processing, geolocation tagging, output formatting (text, JSON, XML, HTML). Target platforms are any supporting Perl (Windows, macOS, Linux, etc.). Primary deliverables are the `exiftool` command-line application and the `Image::ExifTool` Perl module. Supports numerous file types (various RAW formats, JPEG, TIFF, PNG, HEIC, PDF, MP4, MOV, MP3, etc.).
+
+---
